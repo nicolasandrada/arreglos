@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Hola primer repositorio</h1>
+    <h2>Buenas</h2>
 </body>
 </html>
