@@ -1,13 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hola primer repositorio</h1>
-    <h2>Buenas</h2>
-</body>
-</html>
+<?php
+
+// int num[5];
+
+//declarando un arreglo
+$nombres = [];
+
+$nombres[] = "Elias";
+$nombres[] = "Leandro";
+$nombres[] = "Gonzalo";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+$nombres[] = "Mary";
+
+//for($i= 0; $i< count($nombres) ; $i++){
+//    echo "Bienvenido $nombres[$i] <br>";
+//}
+echo '<select name="" id="">';
+foreach($nombres as $n){
+    echo "Bienvenido $n <br>";
+}
+echo '</select>';
+?>
+
+<select name="" id="">
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+</select>
